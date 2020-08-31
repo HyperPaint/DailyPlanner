@@ -1,0 +1,44 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/SecondaryLayout"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainLayout">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditSearch"
+            android:layout_weight="15"
+            android:hint="@string/find"
+            android:inputType="text|textCapSentences|textShortMessage" />
+        <ImageButton
+            style="@style/MyImageButton"
+            android:src="@drawable/interfaceicon_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Search"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/List"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_below="@id/MainLayout" />
+    <ImageButton
+        style="@style/MyImageButton"
+        android:src="@drawable/menubutton_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/New"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

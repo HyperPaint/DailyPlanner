@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/SecondaryLayout">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MainLayout">
+            <TextView
+                style="@style/MyDarkText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Top"
+                android:textSize="20sp"
+                android:textAlignment="center" />
+            <TextView
+                style="@style/MyDarkText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Text"/>
+            <TextView
+                style="@style/MyDarkText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Bottom"
+                android:textAlignment="center" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minHeight="100dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        style="@style/MyLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            style="@style/MyButton"
+            android:text="@string/close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Close"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<resources>
+	<!--Главное окно-->
+    <string name="app_name">Ежедневник</string>
+	<string name="tasks">Задачи</string>
+	<string name="writes">Заметки</string>
+	<string name="settings">Настройки</string>
+	<string name="about">О программе</string>
+
+	<!--Общее-->
+	<string name="find">Введите запрос</string>
+	<string name="clear">Данные удалены</string>
+	<string name="days">дней</string>
+	<string name="hours">часов</string>
+	<string name="minutes">минут</string>
+	<string name="timeunlimited">Не ограничено по времени</string>
+	<string name="selected">Выбрано</string>
+	<string name="icon">Картинка</string>
+	<string name="primary">Основное</string>
+	<string name="name">Название</string>
+	<string name="description">Описание</string>
+	<string name="created">Создано</string>
+	<string name="textinfo">Информация</string>
+
+	<!--Кнопки-->
+	<string name="open">Открыть</string>
+	<string name="complete">Выполнить</string>
+	<string name="change">Изменить</string>
+	<string name="delete">Удалить</string>
+	<string name="addsubtask">Добавить подзадачу</string>
+	<string name="copy">Дублировать</string>
+	<string name="date">Дата</string>
+	<string name="nodate">Без даты</string>
+	<string name="dateselect">Выбрать дату</string>
+	<string name="timeselect">Выбрать время</string>
+	<string name="datetimeforget">Сбросить</string>
+	<string name="repeat">Повтор</string>
+	<string name="norepeat">Не повторять</string>
+	<string name="repeatdays">Повторять каждые X дней</string>
+	<string name="inputdays">Ввести количество дней</string>
+	<string name="repeatweek">Повторять каждую неделю</string>
+	<string name="repeatmonth">Повторять каждый месяц</string>
+	<string name="repeatyear">Повторять каждый год</string>
+	<string name="save">Сохранить</string>
+	<string name="close">Закрыть</string>
+	<string name="confirmation">Вы уверены?</string>
+	<string name="confirmationnext">Это действие нельзя будет отменить</string>
+	<string name="yes">Да</string>
+	<string name="no">Нет</string>
+	
+	<!--Задачи-->
+	<string name="task">Задача</string>
+	<string name="urgent">Срочно</string>
+	<string name="important">Важно</string>
+	<string name="urgent_important">Cрочно и важно</string>
+	<string name="urgent_notimportant">Cрочно, но не важно</string>
+	<string name="noturgent_important">Не срочно, но важно</string>
+	<string name="noturgent_notimportant">Не срочно и не важно</string>
+	<string name="tasktype">Тип задания</string>
+	<string name="timeleft">Времени осталось</string>
+	<string name="mustcompletein">Выполнить до</string>
+
+	<!--Заметки-->
+	<string name="write">Заметка</string>
+	<string name="fixedwrite">Закреплено</string>
+	<string name="writetype">Тип заметки</string>
+
+	<!--Настройки-->
+	<string name="theme">Тема</string>
+	<string name="themelight">Светлая</string>
+	<string name="themedark">Сиреневенькая</string>
+	<string name="notifications">Уведомления</string>
+	<string name="exceptionotification">Возможно потребуется включить автозапуск для приложения или снять ограничения фоновой активности, если у вас установлена MIUI, Remix OS, Phoenix OS или другая операционная система на базе Android. Это никак не повлияет на расход батареи.</string>
+	<string name="notificationtest">Проверить уведомление</string>
+	<string name="nowcloseapp">Теперь полностью закройте приложение</string>
+	<string name="nowcloseappnext">Уведомление появится через 15 секунд</string>
+	<string name="notifyinadvance">Уведомлять заранее</string>
+	<string name="timeinminutes">Время в минутах</string>
+	<string name="deletetasks">Удалить все задачи</string>
+	<string name="deletewrite">Удалить все заметки</string>
+	<string name="general">Общее</string>
+	<string name="clearall">Удалить все данные</string>
+
+	<!--О программе-->
+	<string name="textabout">Приложение Ежедневник было создано в течение летней практики. Данное приложение позволяет организовать список задач и фиксировать разнообразные записи. У каждой задачи есть срочность и важность. Эти параметры используются для эффективного представления в списке задач. Также задачи и заметки содержат название и описание, дату и прочее. Задачи имеют четыре кнопки - Просмотреть, выполнить, редактировать, удалить. Заметки могут быть закреплены. Они имеют три кнопки - просмотреть, редактировать, удалить.</string>
+
+</resources>

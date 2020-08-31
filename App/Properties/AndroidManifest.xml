@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.hyperpaint.app" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+	<application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+		<service android:name="com.hyperpaint.app.MessageService" android:enabled="true" android:exported="false" android:process=":MessageService"></service>
+		<receiver android:name="com.hyperpaint.app.TimeNotification" android:enabled="true" android:exported="false">
+			<intent-filter>
+				<action android:name="com.hyperpaint.intent.action.notification" />
+			</intent-filter>
+		</receiver>
+	</application>
+</manifest>
